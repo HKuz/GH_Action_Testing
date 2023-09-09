@@ -1,8 +1,7 @@
 [project]
 name = "GH_Action_Testing"
 authors = [
-    { name = "HKuz", email = "heather@agritheory.dev"},
-    { name = "AgriTheory", email = "support@agritheory.dev"}
+    { name = "HKuz", email = "heather@agritheory.dev"}
 ]
 description = "A place to test GitHub Action workflows"
 requires-python = ">=3.10"
@@ -20,7 +19,7 @@ logging_use_named_masks = false
 major_on_zero = true
 tag_format = "v{version}"
 version_variables = [
-    "beam/__init__.py:__version__",
+    "gh_action_testing/__init__.py:__version__",
     "pyproject.toml:version"
 ]
 
